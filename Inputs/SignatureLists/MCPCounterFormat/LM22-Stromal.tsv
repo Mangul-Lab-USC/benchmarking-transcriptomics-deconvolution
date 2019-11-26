@@ -1,0 +1,225 @@
+ABCB4	B cells naive	5244
+ADAM28	B cells naive	10863
+BACH2	B cells naive	60468
+BCL7A	B cells naive	605
+BEND5	B cells naive	79656
+BRAF	B cells naive	673
+CD19	B cells naive	930
+CD22	B cells naive	100847070
+CD37	B cells naive	951
+CD69	B cells naive	969
+CD72	B cells naive	971
+CD79A	B cells naive	973
+CD79B	B cells naive	974
+CR2	B cells naive	1380
+FCRL2	B cells naive	79368
+FRK	B cells naive	2444
+GPR18	B cells naive	2841
+HHEX	B cells naive	3087
+HLA-DOB	B cells naive	3112
+IL4R	B cells naive	3566
+LINC00921	B cells naive	283876
+MEP1A	B cells naive	4224
+MICAL3	B cells naive	57553
+MS4A1	B cells naive	931
+NIPSNAP3B	B cells naive	55335
+P2RX5	B cells naive	5026
+PSG2	B cells naive	5670
+RALGPS2	B cells naive	55103
+RASGRP2	B cells naive	10235
+SLC12A1	B cells naive	6557
+STAP1	B cells naive	26228
+TCL1A	B cells naive	8115
+UGT1A8	B cells naive	54576
+VPREB3	B cells naive	29802
+ZNF286A	B cells naive	57335
+AIM2	B cells memory	9447
+BANK1	B cells memory	55024
+BLK	B cells memory	640
+FCGR2B	B cells memory	2213
+IFNA10	B cells memory	3446
+IL7	B cells memory	3574
+LHCGR	B cells memory	3973
+LY86	B cells memory	9450
+NMBR	B cells memory	4829
+NPIPB15	B cells memory	440348
+PNOC	B cells memory	5368
+SP140	B cells memory	11262
+SPIB	B cells memory	6689
+TNFRSF13B	B cells memory	23495
+TRAF4	B cells memory	9618
+ANKRD55	T cells CD4 naive	79722
+BCL11B	T cells CD4 naive	64919
+BFSP1	T cells CD4 naive	631
+DSC1	T cells CD4 naive	1823
+EPHA1	T cells CD4 naive	2041
+FLT3LG	T cells CD4 naive	2323
+GAL3ST4	T cells CD4 naive	79690
+GALR1	T cells CD4 naive	2587
+GRAP2	T cells CD4 naive	9402
+IL7R	T cells CD4 naive	3575
+ITK	T cells CD4 naive	3702
+LEF1	T cells CD4 naive	51176
+LY9	T cells CD4 naive	4063
+MAP4K2	T cells CD4 naive	5871
+MAP9	T cells CD4 naive	79884
+SERGEF	T cells CD4 naive	26297
+TCF7	T cells CD4 naive	6932
+UBASH3A	T cells CD4 naive	53347
+VILL	T cells CD4 naive	50853
+WNT7A	T cells CD4 naive	7476
+ZNF324	T cells CD4 naive	25799
+CCR6	T cells CD4 memory resting	1235
+CD3E	T cells CD4 memory resting	916
+CD40LG	T cells CD4 memory resting	959
+CD6	T cells CD4 memory resting	923
+DPP4	T cells CD4 memory resting	1803
+EPB41	T cells CD4 memory resting	2035
+ETS1	T cells CD4 memory resting	2113
+FBXL8	T cells CD4 memory resting	55336
+PBXIP1	T cells CD4 memory resting	57326
+RASA3	T cells CD4 memory resting	22821
+RCAN3	T cells CD4 memory resting	11123
+RPL10L	T cells CD4 memory resting	140801
+TRAT1	T cells CD4 memory resting	50852
+ZFP36L2	T cells CD4 memory resting	678
+CD28	T cells CD4 memory activated	940
+CDC25A	T cells CD4 memory activated	993
+CXCR6	T cells CD4 memory activated	10663
+IFNG	T cells CD4 memory activated	3458
+IL17A	T cells CD4 memory activated	3605
+IL26	T cells CD4 memory activated	55801
+IL2RA	T cells CD4 memory activated	3559
+IL3	T cells CD4 memory activated	3562
+IL4	T cells CD4 memory activated	3565
+IL9	T cells CD4 memory activated	3578
+ORC1	T cells CD4 memory activated	4998
+RRP9	T cells CD4 memory activated	9136
+SKA1	T cells CD4 memory activated	220134
+CD3G	T cells CD8	917
+CD8A	T cells CD8	925
+CD8B	T cells CD8	926
+CRTAM	T cells CD8	56253
+KLRC4	T cells CD8	8302
+LIME1	T cells CD8	54923
+PIK3IP1	T cells CD8	113791
+BHLHE41	Macrophages M0	79365
+CCDC102B	Macrophages M0	79839
+CHI3L1	Macrophages M0	1116
+COL8A2	Macrophages M0	1296
+CSF1	Macrophages M0	1435
+CXCL5	Macrophages M0	6374
+CYP27A1	Macrophages M0	1593
+DCSTAMP	Macrophages M0	81501
+GPC4	Macrophages M0	2239
+HK3	Macrophages M0	3101
+IGSF6	Macrophages M0	10261
+MARCO	Macrophages M0	8685
+MMP9	Macrophages M0	4318
+PLA2G7	Macrophages M0	7941
+PPBP	Macrophages M0	5473
+ACHE	Macrophages M1	43
+ADAMDEC1	Macrophages M1	27299
+APOL3	Macrophages M1	80833
+APOL6	Macrophages M1	80830
+ARRB1	Macrophages M1	408
+CASP5	Macrophages M1	838
+CCL19	Macrophages M1	6363
+CCL8	Macrophages M1	6355
+CCR7	Macrophages M1	1236
+CD40	Macrophages M1	958
+CXCL10	Macrophages M1	3627
+CXCL11	Macrophages M1	6373
+CXCL9	Macrophages M1	4283
+CYP27B1	Macrophages M1	1594
+EBI3	Macrophages M1	10148
+HCK	Macrophages M1	3055
+HESX1	Macrophages M1	8820
+IDO1	Macrophages M1	3620
+IFI44L	Macrophages M1	10964
+IRF8	Macrophages M1	3394
+LAG3	Macrophages M1	3902
+LILRA3	Macrophages M1	11026
+LILRB2	Macrophages M1	10288
+NOD2	Macrophages M1	64127
+PLA1A	Macrophages M1	51365
+PTGIR	Macrophages M1	5739
+RASSF4	Macrophages M1	83937
+SIGLEC1	Macrophages M1	6614
+SLAMF1	Macrophages M1	6504
+SLC2A6	Macrophages M1	11182
+SOCS1	Macrophages M1	8651
+TLR7	Macrophages M1	51284
+TLR8	Macrophages M1	51311
+TNFAIP6	Macrophages M1	7130
+TNIP3	Macrophages M1	79931
+TRPM4	Macrophages M1	54795
+ZBTB32	Macrophages M1	27033
+AIF1	Macrophages M2	199
+CCL13	Macrophages M2	6357
+CCL14	Macrophages M2	6358
+CCL18	Macrophages M2	6362
+CCL23	Macrophages M2	6368
+CD180	Macrophages M2	4064
+CD209	Macrophages M2	30835
+CD4	Macrophages M2	920
+CD68	Macrophages M2	968
+CLEC10A	Macrophages M2	10462
+CLEC4A	Macrophages M2	50856
+CRYBB1	Macrophages M2	1414
+FES	Macrophages M2	2242
+FRMD4A	Macrophages M2	55691
+GGT5	Macrophages M2	2687
+HNMT	Macrophages M2	3176
+HRH1	Macrophages M2	3269
+MS4A6A	Macrophages M2	64231
+NME8	Macrophages M2	51314
+NPL	Macrophages M2	80896
+RENBP	Macrophages M2	5973
+SLC15A3	Macrophages M2	51296
+WNT5B	Macrophages M2	81029
+ADAMTS3	Mast cells resting	9508
+ADRB2	Mast cells resting	154
+BMP2K	Mast cells resting	55589
+BPI	Mast cells resting	671
+CEACAM8	Mast cells resting	1088
+CPA3	Mast cells resting	1359
+CTSG	Mast cells resting	1511
+ELANE	Mast cells resting	1991
+FAM124B	Mast cells resting	79843
+FAM174B	Mast cells resting	400451
+FCER1A	Mast cells resting	2205
+GFI1	Mast cells resting	2672
+HOXA1	Mast cells resting	3198
+HPGDS	Mast cells resting	27306
+LTC4S	Mast cells resting	4056
+MS4A2	Mast cells resting	2206
+MS4A3	Mast cells resting	932
+P2RX1	Mast cells resting	5023
+PAQR5	Mast cells resting	54852
+RAB27B	Mast cells resting	5874
+8-Sep	Mast cells resting	23176
+STXBP6	Mast cells resting	29091
+ATP8B4	Mast cells activated	79895
+AZU1	Mast cells activated	566
+CCL1	Mast cells activated	6346
+CCL20	Mast cells activated	6364
+CCL7	Mast cells activated	6354
+CMA1	Mast cells activated	1215
+CSF2	Mast cells activated	1437
+CXCL3	Mast cells activated	2921
+HDC	Mast cells activated	3067
+IL18R1	Mast cells activated	8809
+IL1A	Mast cells activated	3552
+IL1B	Mast cells activated	3553
+IL1RL1	Mast cells activated	9173
+IL5	Mast cells activated	3567
+3-Mar	Mast cells activated	115123
+MYB	Mast cells activated	4602
+NOX3	Mast cells activated	50508
+NTRK1	Mast cells activated	4914
+PRG2	Mast cells activated	5553
+RGS13	Mast cells activated	6003
+SLC12A8	Mast cells activated	84561
+TEC	Mast cells activated	7006
+TPSAB1	Mast cells activated	7177
