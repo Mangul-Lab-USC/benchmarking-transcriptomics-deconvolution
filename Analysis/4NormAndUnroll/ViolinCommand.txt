@@ -1,0 +1,10 @@
+function(i){
+curPair = FNumSigs[FNumSigs$Pairing==names(table(FNumSigs[,3]))[i],]
+ggplot(curPair, aes(x=NumSigs, y=Error)) + ylim(c(0,.25)) + geom_violin(scale = "width") + geom_boxplot(width = .2) + theme(plot.title = element_text(hjust = .5)) + ggtitle(names(table(FNumSigs[,3]))[i]) + xlab("Row Scaling Value")}
+
+
+DataCellMix = read.table("Unrolled_Normed_CellMix.tsv", header = TRUE, sep = "\t")
+DataPBMC1 = read.table("Unrolled_Normed_PBMC1.tsv", header = TRUE, sep = "\t")
+DataPBMC2 = read.table("Unrolled_Normed_PBMC2.tsv", header = TRUE, sep = "\t")
+DataStromal = read.table("Unrolled_Normed_Stromal.tsv", header = TRUE, sep = "\t")
+DataFram = read.table("Unrolled_Normed_Fram.tsv", header = TRUE, sep = "\t")
