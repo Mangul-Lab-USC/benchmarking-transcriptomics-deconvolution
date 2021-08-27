@@ -1,0 +1,56 @@
+BEDFile-class           BEDFile objects
+BasicTrackLine-class    Class "BasicTrackLine"
+Bed15TrackLine-class    Class "Bed15TrackLine"
+BigWigFile-class        BigWig Import and Export
+BigWigSelection-class   Selection of ranges and columns
+BrowserSession-class    Class "BrowserSession"
+BrowserView-class       Class "BrowserView"
+BrowserViewList-class   Lists of BrowserView
+Chain-class             Chain objects
+FastaFile-class         FastaFile objects
+GFFFile-class           GFFFile objects
+GRangesForUCSCGenome    GRanges for a Genome
+GenomicSelection        Genomic data selection
+GraphTrackLine-class    Class "GraphTrackLine"
+Quickload-class         Quickload Access
+QuickloadGenome-class   Quickload Genome Access
+RTLFile-class           RTLFile objects
+RangedData-methods      Data on a Genome
+RangesList-methods      Ranges on a Genome
+TrackDb-class           Track Databases
+TrackLine-class         Class "TrackLine"
+TwoBitFile-class        2bit Files
+UCSCData-class          Class "UCSCData"
+UCSCFile-class          UCSCFile objects
+UCSCSchema-class        UCSC Schema
+UCSCSession-class       Class "UCSCSession"
+UCSCTableQuery-class    Querying UCSC Tables
+UCSCTrackModes-class    Class "UCSCTrackModes"
+UCSCView-class          Class "UCSCView"
+WIGFile-class           WIG Import and Export
+activeView-methods      Accessing the active view
+asBED                   Coerce to BED structure
+asGFF                   Coerce to GFF structure
+blocks-methods          Get blocks/exons
+browseGenome            Browse a genome
+browserSession-methods
+                        Get a genome browser session
+browserView-methods     Getting browser views
+browserViews-methods    Getting the browser views
+cpneTrack               CPNE1 SNP track
+export                  Import and export
+export,ANY,BamFile,ANY-method
+                        Export to BAM Files
+genomeBrowsers          Get available genome browsers
+import,TabixFile,character,ANY-method
+                        TabixFile Import/Export
+liftOver                Lift intervals between genome builds
+readGFF                 Reads a file in GFF format
+sequence<--methods      Load a sequence
+targets                 microRNA target sites
+track<--methods         Laying tracks
+trackNames              Accessing track names
+ucscGenomes             Get available genomes on UCSC
+ucscTrackModes-methods
+                        Accessing UCSC track modes
+wigToBigWig             Convert WIG to BigWig

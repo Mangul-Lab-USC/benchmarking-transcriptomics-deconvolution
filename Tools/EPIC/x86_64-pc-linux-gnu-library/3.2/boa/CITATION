@@ -1,0 +1,15 @@
+citHeader("To cite boa in publications use:")
+
+citEntry(entry="Article",
+         title = "boa: An R Package for MCMC Output Convergence Assessment and Posterior Inference",
+         author = personList(as.person("Brian J. Smith")),
+         year         = "2007",
+         journal      = "Journal of Statistical Software",
+         volume       = "21",
+         number       = "11",
+         pages        = "1--37",
+         textVersion =
+         paste("Smith, B. J. (2007)",
+               "boa: An R Package for MCMC Output Convergence Assessment and Posterior Inference",
+               "Journal of Statistical Software, 21(11), 1-37")
+)

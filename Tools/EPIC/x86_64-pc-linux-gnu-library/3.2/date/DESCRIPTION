@@ -1,0 +1,25 @@
+Package: date
+Version: 1.2-38
+Title: Functions for Handling Dates
+Authors@R: c(person("Terry", "Therneau", role = "aut",
+                    email = "therneau@mayo.edu"),
+             person("Thomas", "Lumley", role = "trl", comment = "R port"),
+             person("Kjetil", "Halvorsen", role = "trl", comment = "R port"),
+             person("Kurt", "Hornik", role = c("trl", "ctb", "cre"),
+                    email = "Kurt.Hornik@R-project.org",
+                    comment = c(ORCID = "0000-0003-4198-9911", "R port")),
+             person("R Core Team", role = "ctb"))
+Description: Functions for handling dates.
+Imports: graphics
+License: GPL-2
+NeedsCompilation: yes
+Packaged: 2018-01-06 13:49:42 UTC; hornik
+Author: Terry Therneau [aut],
+  Thomas Lumley [trl] (R port),
+  Kjetil Halvorsen [trl] (R port),
+  Kurt Hornik [trl, ctb, cre] (0000-0003-4198-9911, R port),
+  R Core Team [ctb]
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+Repository: CRAN
+Date/Publication: 2018-01-06 15:08:39 UTC
+Built: R 3.2.3; x86_64-pc-linux-gnu; 2018-03-07 21:43:07 UTC; unix

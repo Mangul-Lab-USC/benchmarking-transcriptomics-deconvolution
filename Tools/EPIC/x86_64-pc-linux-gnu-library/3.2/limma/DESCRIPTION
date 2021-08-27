@@ -1,0 +1,25 @@
+Package: limma
+Version: 3.26.9
+Date: 2016-03-22
+Title: Linear Models for Microarray Data
+Description: Data analysis, linear models and differential expression for microarray data.
+Author: Gordon Smyth [cre,aut], Matthew Ritchie [ctb], Jeremy Silver [ctb], James Wettenhall [ctb], Natalie Thorne [ctb], Davis McCarthy [ctb], Di Wu [ctb], Yifang Hu [ctb], Wei Shi [ctb], Belinda Phipson [ctb], Alicia Oshlack [ctb], Carolyn de Graaf [ctb], Mette Langaas [ctb], Egil Ferkingstad [ctb], Marcus Davy [ctb], Francois Pepin [ctb], Dongseok Choi [ctb], Aaron Lun [ctb]
+Maintainer: Gordon Smyth <smyth@wehi.edu.au>
+License: GPL (>=2)
+Depends: R (>= 2.3.0)
+Imports: grDevices, graphics, stats, utils, methods
+Suggests: affy, AnnotationDbi, BiasedUrn, Biobase, ellipse, GO.db,
+        illuminaio, locfit, MASS, org.Hs.eg.db, splines, statmod (>=
+        1.2.2), vsn
+URL: http://bioinf.wehi.edu.au/limma
+biocViews: ExonArray, GeneExpression, Transcription,
+        AlternativeSplicing, DifferentialExpression,
+        DifferentialSplicing, GeneSetEnrichment, DataImport, Genetics,
+        Bayesian, Clustering, Regression, TimeCourse, Microarray,
+        microRNAArray, mRNAMicroarray, OneChannel,
+        ProprietaryPlatforms, TwoChannel, RNASeq, BatchEffect,
+        MultipleComparison, Normalization, Preprocessing,
+        QualityControl
+NeedsCompilation: yes
+Packaged: 2016-03-23 00:23:05 UTC; biocbuild
+Built: R 3.2.3; x86_64-pc-linux-gnu; 2018-03-07 21:46:07 UTC; unix

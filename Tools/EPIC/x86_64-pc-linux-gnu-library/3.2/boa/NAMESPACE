@@ -1,0 +1,58 @@
+## import functions
+importFrom("graphics", "abline", "legend", "lines", "mtext", "par", "plot")
+importFrom("grDevices", "dev.cur", "dev.list", "dev.next", "dev.off",
+           "dev.prev", "dev.print", "dev.set", "postscript")
+importFrom("stats", "Gamma", "acf", "aggregate", "cor", "density", "fft", "glm",
+           "pnorm", "predict", "qf", "qnorm", "quantile", "spline", "ts", "var")
+importFrom("utils", "assignInNamespace", "menu", "read.table")
+
+
+## export functions
+export(
+   boa.acf,
+   boa.chain,
+   boa.chain.add,
+   boa.chain.collapse,
+   boa.chain.del,
+   boa.chain.eval,
+   boa.chain.gandr,
+   boa.chain.import,
+   boa.chain.info,
+   boa.chain.reset,
+   boa.chain.subset,
+   boa.chain.support,
+   boa.geweke,
+   boa.handw,
+   boa.hpd,
+   boa.importASCII,
+   boa.importBUGS,
+   boa.importMatrix,
+   boa.init,
+   boa.load,
+   boa.menu,
+   boa.par,
+   boa.plot,
+   boa.plot.acf,
+   boa.plot.bandg,
+   boa.plot.density,
+   boa.plot.gandr,
+   boa.plot.geweke,
+   boa.plot.history,
+   boa.plot.par,
+   boa.plot.title,
+   boa.plot.trace,
+   boa.print.acf,
+   boa.print.cor,
+   boa.print.gandr,
+   boa.print.geweke,
+   boa.print.handw,
+   boa.print.hpd,
+   boa.print.info,
+   boa.print.par,
+   boa.print.randl,
+   boa.print.stats,
+   boa.quit,
+   boa.randl,
+   boa.save,
+   boa.stats
+)

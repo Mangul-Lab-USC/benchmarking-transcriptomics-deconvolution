@@ -1,0 +1,25 @@
+useDynLib("date", .registration = TRUE)
+
+importFrom("graphics", "Axis", "axis", "par", "plot")
+
+export("as.date",
+       "date.ddmmmyy", "date.mdy", "date.mmddyy", "date.mmddyyyy",
+       "is.date",
+       "mdy.date")
+
+S3method("Axis", "date")
+S3method("Math", "date")
+S3method("Ops", "date")
+S3method("Summary", "date")
+S3method("[", "date")
+S3method("[[", "date")
+S3method("as.Date", "date")
+S3method("as.POSIXct", "date")
+S3method("as.POSIXlt", "date")
+S3method("as.character", "date")
+S3method("as.data.frame", "date")
+S3method("as.vector", "date")
+S3method("is.na", "date")
+S3method("plot", "date")
+S3method("print", "date")
+S3method("summary", "date")

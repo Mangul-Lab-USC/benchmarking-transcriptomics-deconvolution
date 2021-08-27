@@ -1,0 +1,20 @@
+Package: edgeR
+Version: 3.12.1
+Date: 2016/04/07
+Title: Empirical analysis of digital gene expression data in R
+Description: Differential expression analysis of RNA-seq expression profiles with biological replication. Implements a range of statistical methodology based on the negative binomial distributions, including empirical Bayes estimation, exact tests, generalized linear models and quasi-likelihood tests. As well as RNA-seq, it be applied to differential signal analysis of other types of genomic data that produce counts, including ChIP-seq, SAGE and CAGE.
+Author: Yunshun Chen <yuchen@wehi.edu.au>, Aaron Lun <alun@wehi.edu.au>, Davis McCarthy <dmccarthy@wehi.edu.au>, Xiaobei Zhou <xiaobei.zhou@uzh.ch>, Mark Robinson <mark.robinson@imls.uzh.ch>, Gordon Smyth <smyth@wehi.edu.au>
+Maintainer: Yunshun Chen <yuchen@wehi.edu.au>, Aaron Lun <alun@wehi.edu.au>, Mark Robinson <mark.robinson@imls.uzh.ch>, Davis McCarthy <dmccarthy@wehi.edu.au>, Gordon Smyth <smyth@wehi.edu.au>
+License: GPL (>=2)
+Depends: R (>= 2.15.0), limma
+Imports: methods
+Suggests: MASS, statmod, splines, locfit, KernSmooth
+URL: http://bioinf.wehi.edu.au/edgeR
+biocViews: GeneExpression, Transcription, AlternativeSplicing,
+        Coverage, DifferentialExpression, DifferentialSplicing,
+        GeneSetEnrichment, Genetics, Bayesian, Clustering, Regression,
+        TimeCourse, SAGE, Sequencing, ChIPSeq, RNASeq, BatchEffect,
+        MultipleComparison, Normalization, QualityControl
+NeedsCompilation: yes
+Packaged: 2016-04-08 00:53:07 UTC; biocbuild
+Built: R 3.2.3; x86_64-pc-linux-gnu; 2018-03-07 21:23:10 UTC; unix

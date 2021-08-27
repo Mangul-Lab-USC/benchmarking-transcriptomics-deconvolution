@@ -1,0 +1,4 @@
+useDynLib(awsMethods, .registration = TRUE, .fixes = "C_")
+import("methods")
+exportMethods("extract","risk")
+export("setCores")

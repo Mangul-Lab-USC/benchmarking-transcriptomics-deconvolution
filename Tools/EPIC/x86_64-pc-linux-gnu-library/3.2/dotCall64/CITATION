@@ -1,0 +1,37 @@
+citHeader("To cite dotCall64 in publications use:")
+
+citEntry(entry = "Article",
+  title        = "Extending {R} packages to support 64-bit compiled code: An illustration with spam64 and {GIMMS} {NDVI3g} data",
+  author       = personList(as.person("Florian Gerber"),
+                            as.person("Kaspar Moesinger"),
+                            as.person("Reinhard Furrer")),
+  journal      = "Computer & Geoscience",
+  year         = "2017",
+  volume       = "104",
+  number       = "",
+  pages        = "109--119",
+  issn         = "0098-3004",
+  doi          = "10.1016/j.cageo.2016.11.015",
+  textVersion  =
+  paste("F. Gerber, K. Moesinger, R. Furrer (2017),",
+        "Extending R packages to support 64-bit compiled code: An illustration with spam64 and GIMMS NDVI3g data,",
+        "Computer & Geoscience 104, 109-119, https://doi.org/10.1016/j.cageo.2016.11.015.")
+)
+
+citEntry(entry = "Article",
+  title        = "{dotCall64}: An efficient interface to compiled {C/C++} and {F}ortran code supporting long vectors",
+  author       = personList(as.person("Florian Gerber"),
+                            as.person("Kaspar Moesinger"),
+                            as.person("Reinhard Furrer")),
+  journal      = "arXiv",
+  year         = "2017",
+  volume       = "",
+  number       = "",
+  pages        = "",
+  url          = "https://arxiv.org/abs/1702.08188",
+  note         = "",
+  textVersion  =
+  paste("F. Gerber, K. Moesinger, R. Furrer (2017),",
+        "dotCall64: An efficient interface to compiled C/C++ and Fortran code supporting long vectors,",
+        "https://arxiv.org/abs/1702.08188.")
+)

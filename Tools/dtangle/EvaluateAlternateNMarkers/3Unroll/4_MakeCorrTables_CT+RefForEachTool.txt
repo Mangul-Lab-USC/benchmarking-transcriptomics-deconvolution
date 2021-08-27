@@ -1,0 +1,55 @@
+library(gplots)
+library(RColorBrewer)
+
+MakeTable1CT = function(CTName,DataMatrix){
+    justCT = DataMatrix[DataMatrix$CellType == CTName,]
+    refNames = names(which(table(justCT[,2]) > 0))
+    corMat = data.frame(refNames)
+    corMat[,2] = 0
+        
+    names(corMat) = c("RefMat",CTName)
+    for (i in 1:length(refNames)){
+  	  relData = justCT[justCT$Reference==refNames[i],]
+   corMat[i,2] = cor(relData[,5],relData[,6])}
+return(corMat)}
+
+
+MakeTableAllCTs = function(AllPredictions){
+   CTList = names(table(AllPredictions$CellType))
+   outMat = MakeTable1CT(CTList[1],AllPredictions)
+   for (i in 2:length(CTList)){
+	    nextMat = MakeTable1CT(CTList[i],AllPredictions)
+            outMat = merge(outMat,nextMat, by="RefMat", all = T)
+   }
+   finalMat = outMat[2:dim(outMat)[2]]
+   row.names(finalMat) = outMat[,1]
+return(finalMat)}
+
+makeHM = function(myMat, OutputPath, myTitle){
+   png(OutputPath, 1500, 1500)
+   myMat = as.matrix(myMat)
+   heatmap.2(myMat, trace = "none", dendrogram = "none", Rowv = FALSE, Colv = FALSE, col = c("#EC2727",brewer.pal(9,"Blues")[1:7]), cellnote = round(myMat,2), notecex = 2, notecol = "black", margins = c(10,14), main = myTitle, breaks = c(-1,0.0,0.25,0.5,0.6,0.7,0.8,0.9,1.0))
+   dev.off()
+}
+
+IterateThroughTools = function(AllPredictions,DatasetName){
+    Tools = names(table(AllPredictions$Tool))
+    for (i in 1:length(Tools)){
+         JustTool = AllPredictions[AllPredictions$Tool == Tools[i],]
+         CorrTool = MakeTableAllCTs(JustTool)
+         outTsv = paste("CorrsByTool/", DatasetName, Tools[i], ".tsv",sep = "") 
+         outPng = paste("CorrsByTool/", DatasetName, Tools[i], ".png",sep = "")
+         write.table(CorrTool, outTsv)
+         makeHM(CorrTool,outPng, paste(Tools[i],DatasetName,sep = "\n"))}
+    }
+         
+
+DataCellMix = read.table("Unrolled_CellMix.tsv", header = TRUE, sep = "\t")
+DataPBMC = read.table("Unrolled_AllPBMC.tsv", header = TRUE, sep = "\t")
+DataStromal = read.table("Unrolled_Stromal.tsv", header = TRUE, sep = "\t")
+DataFram = read.table("Unrolled_Fram.tsv", header = TRUE, sep = "\t")
+
+IterateThroughTools(DataCellMix, "Cell Mixtures")
+IterateThroughTools(DataPBMC, "PBMC Mixtures")
+IterateThroughTools(DataStromal, "Stromal Mixtures")
+IterateThroughTools(DataFram, "Framingham Cohort")

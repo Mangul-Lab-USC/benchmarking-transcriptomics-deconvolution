@@ -1,0 +1,28 @@
+Package: manipulate
+Type: Package
+Title: Interactive Plots for RStudio
+Version: 1.0.1
+Date: 2014-12-23
+Authors@R: c(
+    person("JJ", "Allaire", role = c("aut", "cre"),
+       comment = "R interface", email = "jj@rstudio.com"),
+    person(family = "RStudio", role = "cph")
+    )
+Maintainer: JJ Allaire <jj@rstudio.com>
+Description: Interactive plotting functions for use within RStudio.
+  The manipulate function accepts a plotting expression and a set of
+  controls (e.g. slider, picker, checkbox, or button) which are used
+  to dynamically change values within the expression. When a value is
+  changed using its corresponding control the expression is
+  automatically re-executed and the plot is redrawn.
+Depends: R (>= 2.11.1)
+SystemRequirements: RStudio - http://www.rstudio.com/products/rstudio/
+License: GPL-2
+LazyLoad: yes
+Packaged: 2014-12-23 18:00:41 UTC; jjallaire
+Author: JJ Allaire [aut, cre] (R interface),
+  RStudio [cph]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2014-12-24 01:18:44
+Built: R 3.2.3; ; 2018-03-07 21:46:12 UTC; unix

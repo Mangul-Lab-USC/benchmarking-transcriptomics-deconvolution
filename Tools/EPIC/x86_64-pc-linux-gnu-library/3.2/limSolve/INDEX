@@ -1,0 +1,33 @@
+Blending                A linear inverse blending problem
+Chemtax                 An overdetermined linear inverse problem:
+                        estimating algal composition based on pigment
+                        biomarkers.
+E_coli                  An underdetermined linear inverse problem: the
+                        Escherichia Coli Core Metabolism Model.
+Minkdiet                An underdetermined linear inverse problem:
+                        estimating diet composition of Southeast
+                        Alaskan Mink.
+RigaWeb                 An underdetermined linear inverse problem: the
+                        Gulf of Riga *spring* planktonic food web
+Solve                   Generalised inverse solution of Ax = B
+Solve.banded            Solution of a banded system of linear equations
+Solve.block             Solution of an almost block diagonal system of
+                        linear equations
+Solve.tridiag           Solution of a tridiagonal system of linear
+                        equations
+ldei                    Weighted Least Distance Programming with
+                        equality and inequality constraints.
+ldp                     Least Distance Programming
+limSolve-package        Solving Linear Inverse Models
+linp                    Linear Programming.
+lsei                    Least Squares with Equalities and Inequalities
+nnls                    Nonnegative Least Squares
+resolution              Row and column resolution of a matrix.
+varranges               Calculates ranges of inverse variables in a
+                        linear inverse problem
+varsample               Samples the probability density function of
+                        variables of linear inverse problems.
+xranges                 Calculates ranges of the unknowns of a linear
+                        inverse problem
+xsample                 Randomly samples an underdetermined problem
+                        with linear equality and inequality constraints

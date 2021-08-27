@@ -1,0 +1,12 @@
+../2ReformatPredictions/ReformattedPredictions/AbsCIBERSORT_StromalNormMix_EPIC-TIC.tsv
+../2ReformatPredictions/ReformattedPredictions/CIBERSORT_StromalNormMix_EPIC-TIC.tsv
+../2ReformatPredictions/ReformattedPredictions/DCQ_StromalNormMix_HPCA-Stromal.tsv
+../2ReformatPredictions/ReformattedPredictions/DeconRNASeq_StromalNormMix_SkinSignaturesV1.tsv
+../2ReformatPredictions/ReformattedPredictions/EPIC_StromalNormMix_EPIC-BCIC.tsv
+../2ReformatPredictions/ReformattedPredictions/GEDIT_StromalNormMix_HPCA-Stromal.tsv
+../2ReformatPredictions/ReformattedPredictions/MCP-counter_StromalNormMix_default.tsv
+../2ReformatPredictions/ReformattedPredictions/SaVanT_StromalNormMix_HPCA-Stromal.tsv
+../2ReformatPredictions/ReformattedPredictions/dtangle_StromalNormMix_BlueCodeV1.tsv
+../2ReformatPredictions/ReformattedPredictions/nnls_StromalNormMix_LM22-Full.tsv
+../2ReformatPredictions/ReformattedPredictions/quanTIseq_StromalNormMix_default.tsv
+../2ReformatPredictions/ReformattedPredictions/xCell_StromalNormMix_default.tsv

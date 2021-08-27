@@ -1,0 +1,12 @@
+../2ReformatPredictions/ReformattedPredictions/AbsCIBERSORT_CellMixtures_ImmunoStates-Full.tsv
+../2ReformatPredictions/ReformattedPredictions/CIBERSORT_CellMixtures_LM22-Full.tsv
+../2ReformatPredictions/ReformattedPredictions/DCQ_CellMixtures_LM22-Full.tsv
+../2ReformatPredictions/ReformattedPredictions/DeconRNASeq_CellMixtures_LM22-Full.tsv
+../2ReformatPredictions/ReformattedPredictions/EPIC_CellMixtures_HPCA-Stromal.tsv
+../2ReformatPredictions/ReformattedPredictions/GEDIT_CellMixtures_EPIC-BCIC.tsv
+../2ReformatPredictions/ReformattedPredictions/MCP-counter_CellMixtures_default.tsv
+../2ReformatPredictions/ReformattedPredictions/SaVanT_CellMixtures_SkinSignaturesV1.tsv
+../2ReformatPredictions/ReformattedPredictions/dtangle_CellMixtures_SkinSignaturesV1.tsv
+../2ReformatPredictions/ReformattedPredictions/nnls_CellMixtures_LM22-Full.tsv
+../2ReformatPredictions/ReformattedPredictions/quanTIseq_CellMixtures_default.tsv
+../2ReformatPredictions/ReformattedPredictions/xCell_CellMixtures_default.tsv

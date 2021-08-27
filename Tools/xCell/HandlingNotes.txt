@@ -1,0 +1,13 @@
+B Cells -- B-Cells
+
+Monocytes -- Monocytes
+
+NK Cells -- NK Cells
+
+Neutrophils ...
+
+CD4 T Cells -- CD4+ T Cells, others excluded
+
+CD8 T Cells -- CD8 T Cells, others excluded
+
+Macrophages -- Macrophages, M1 and M2 fields excluded

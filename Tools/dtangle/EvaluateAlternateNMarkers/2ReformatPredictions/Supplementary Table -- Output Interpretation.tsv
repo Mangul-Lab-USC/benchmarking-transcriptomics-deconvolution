@@ -1,0 +1,219 @@
+Output Name	Interpretation for in vitro and in silico mixtures	Interpretation for Framingham
+CD19B	B Cells	Lymphocyte
+B.cell.naive	B Cells	Lymphocyte
+B.cell.memory	B Cells	Lymphocyte
+CD38.negative.naive.B.cell	B Cells	Lymphocyte
+memory.B.cell	B Cells	Lymphocyte
+Bcells	B Cells	Lymphocyte
+B_cells	B Cells	Lymphocyte
+naive_B_cell	B Cells	Lymphocyte
+memory_B_cell	B Cells	Lymphocyte
+B cells naive	B Cells	Lymphocyte
+B cells memory	B Cells	Lymphocyte
+B.cells.naive	B Cells	Lymphocyte
+B.cells.memory	B Cells	Lymphocyte
+B lineage	B Cells	Lymphocyte
+HPCA_B_cells	B Cells	Lymphocyte
+B-cells	B Cells	Lymphocyte
+Class-switched memory B-cells	B Cells	Lymphocyte
+Memory B-cells	B Cells	Lymphocyte
+naive B-cells	B Cells	Lymphocyte
+CD4HelperT	CD4 T Cells	Lymphocyte
+CD4MemoryT	CD4 T Cells	Lymphocyte
+CD4NaiveT	CD4 T Cells	Lymphocyte
+CD4RegulatoryT	CD4 T Cells	Lymphocyte
+T.Cell.CD4	CD4 T Cells	Lymphocyte
+T.cell.CD4.memory	CD4 T Cells	Lymphocyte
+memory.CD4.positive.alpha.beta.T.cell	CD4 T Cells	Lymphocyte
+CD4.positive..alpha.beta.T.cell	CD4 T Cells	Lymphocyte
+CD4_Tcells	CD4 T Cells	Lymphocyte
+T_cells_(CD4+)	CD4 T Cells	Lymphocyte
+CD4_positive_alpha_beta_T_cell	CD4 T Cells	Lymphocyte
+T cells CD4 naive	CD4 T Cells	Lymphocyte
+T cells CD4 memory resting	CD4 T Cells	Lymphocyte
+T cells CD4 memory activated	CD4 T Cells	Lymphocyte
+T_cells_CD4.	CD4 T Cells	Lymphocyte
+T_cells_.CD4..	CD4 T Cells	Lymphocyte
+T.cells.CD4.naive	CD4 T Cells	Lymphocyte
+T.cells.CD4.memory.resting	CD4 T Cells	Lymphocyte
+T.cells.CD4.memory.activated	CD4 T Cells	Lymphocyte
+HPCA_T_cells_CD4+	CD4 T Cells	Lymphocyte
+CD4+ T-cells	CD4 T Cells	Lymphocyte
+CD4+ Tcm	CD4 T Cells	Lymphocyte
+CD4+ Tem	CD4 T Cells	Lymphocyte
+CD4+ memory T-cells	CD4 T Cells	Lymphocyte
+CD4+ naive T-cells	CD4 T Cells	Lymphocyte
+CD8CytotoxicT	CD8 T Cells	Lymphocyte
+CD8NaiveT	CD8 T Cells	Lymphocyte
+T.cell.CD8.memory	CD8 T Cells	Lymphocyte
+memory.CD8.positive.alpha.beta.T.cell	CD8 T Cells	Lymphocyte
+CD8_Tcells	CD8 T Cells	Lymphocyte
+T_cells_(CD8+)	CD8 T Cells	Lymphocyte
+CD8_positive_alpha_beta_T_cell	CD8 T Cells	Lymphocyte
+T cells CD8	CD8 T Cells	Lymphocyte
+T_cells_CD8.	CD8 T Cells	Lymphocyte
+T_cells_.CD8..	CD8 T Cells	Lymphocyte
+T.cells.CD8	CD8 T Cells	Lymphocyte
+CD8 T cells	CD8 T Cells	Lymphocyte
+HPCA_T_cells_CD8+	CD8 T Cells	Lymphocyte
+CD8+ T-cells	CD8 T Cells	Lymphocyte
+CD8+ Tcm	CD8 T Cells	Lymphocyte
+CD8+ Tem	CD8 T Cells	Lymphocyte
+CD8+ naive T-cells	CD8 T Cells	Lymphocyte
+Endothelial.large.blood.vessel	Endothelial	Other
+Endothelial.microvascular.mammary.or.endometrial	Endothelial	Other
+Endothelial.microvascular.non.reproductive	Endothelial	Other
+Endothelial	Endothelial	Other
+Endothelial_cells	Endothelial	Other
+Lymphatic_endothelial_cells	Endothelial	Other
+Vascular_Endothelial_Cells	Endothelial	Other
+Endothelial cells	Endothelial	Other
+ly Endothelial cells	Endothelial	Other
+mv Endothelial cells	Endothelial	Other
+P-value	Excluded	Excluded
+Correlation	Excluded	Excluded
+RMSE	Excluded	Excluded
+Absolute score (sig.score)	Excluded	Excluded
+Fibroblast.cardiac.ventricle	Fibroblasts	Other
+Fibroblast.of.arm	Fibroblasts	Other
+Fibroblast.of.lung	Fibroblasts	Other
+Fibroblast.of.the.aortic.adventitia	Fibroblasts	Other
+Fibroblast.or.papilla.dermal.cell	Fibroblasts	Other
+CAFs	Fibroblasts	Other
+Fibroblasts	Fibroblasts	Other
+Macrophage	Macrophages	Other
+Macrophages	Macrophages	Other
+macrophage_m0	Macrophages	Other
+macrophage_m1	Macrophages	Other
+macrophage_m2	Macrophages	Other
+Macrophages M0	Macrophages	Other
+Macrophages M1	Macrophages	Other
+Macrophages M2	Macrophages	Other
+Macrophages.M0	Macrophages	Other
+Macrophages.M1	Macrophages	Other
+Macrophages.M2	Macrophages	Other
+MAST_cell	Mast Cell	Other
+Mast cells resting	Mast Cell	Other
+Mast cells activated	Mast Cell	Other
+Mast.cells.resting	Mast Cell	Other
+Mast.cells.activated	Mast Cell	Other
+Mast cells	Mast Cell	Other
+CD14	Monocytes	Monocytes
+Monocyte.CD14	Monocytes	Monocytes
+CD14.positive..CD16.negative.classical.monocyte	Monocytes	Monocytes
+Monocytes	Monocytes	Monocytes
+Monocytes_CD14+CD16-	Monocytes	Monocytes
+Monocytes_CD16+CD14-	Monocytes	Monocytes
+CD14_positive_monocyte	Monocytes	Monocytes
+CD16_positive_monocyte	Monocytes	Monocytes
+Monocytes_CD14.CD16.	Monocytes	Monocytes
+Monocytes_CD16.CD14.	Monocytes	Monocytes
+Monocytic lineage	Monocytes	Monocytes
+HPCA_Monocytes_CD14plusCD16minus	Monocytes	Monocytes
+Mature.neutrophil	Neutrophils	Neutrophils
+mature.neutrophil	Neutrophils	Neutrophils
+Neutrophils	Neutrophils	Neutrophils
+neutrophil	Neutrophils	Neutrophils
+HPCA_Neutrophils	Neutrophils	Neutrophils
+CD56NK	NK Cells	Lymphocyte
+NK.cell.CD56	NK Cells	Lymphocyte
+cytotoxic.CD56.dim.natural.killer.cell	NK Cells	Lymphocyte
+NKcells	NK Cells	Lymphocyte
+NK_cells	NK Cells	Lymphocyte
+CD56dim_natural_killer_cell	NK Cells	Lymphocyte
+CD56bright_natural_killer_cell	NK Cells	Lymphocyte
+NK cells resting	NK Cells	Lymphocyte
+NK cells activated	NK Cells	Lymphocyte
+NK.cells.resting	NK Cells	Lymphocyte
+NK.cells.activated	NK Cells	Lymphocyte
+NK cells	NK Cells	Lymphocyte
+HPCA_NK_cells	NK Cells	Lymphocyte
+NKT	NK Cells	Lymphocyte
+Chondrocyte.articular	Other	Other
+Epithelial.cell.mammary	Other	Other
+Epithelial.renal.cortical	Other	Other
+Epithelial.respiratory	Other	Other
+Hair.follicular.keratinocyte	Other	Other
+Melanocyte.of.skin	Other	Other
+Myometrial.cell	Other	Other
+Osteoblast	Other	Other
+MSC.like.pluripotent.cell	Other	Other
+Myocyte.regular.cardiac	Other	Other
+Smooth.muscle.cell.aortic	Other	Other
+Smooth.muscle.cell.bronchial	Other	Other
+Smooth.muscle.cell.of.bladder	Other	Other
+Smooth.muscle.cell.coronary.artery	Other	Other
+Smooth.muscle.cell.pulmonary.artery	Other	Other
+Smooth.muscle.cell.of.trachea	Other	Other
+Smooth.muscle.cell.uterine	Other	Other
+basophil	Other	Other
+eosinophil	Other	Other
+gamma_delta_T_cell	Other	Other
+hematopoietic_progenitor	Other	Other
+myeloid_dendritic_cell	Other	Other
+plasma_cell	Other	Other
+plasmacytoid_dendritic_cell	Other	Other
+Plasma cells	Other	Other
+T cells follicular helper	Other	Other
+T cells regulatory (Tregs)	Other	Other
+T cells gamma delta	Other	Other
+Dendritic cells resting	Other	Other
+Dendritic cells activated	Other	Other
+Eosinophils	Other	Other
+Blood_CD34._cells	Other	Other
+Dendritic_cells	Other	Other
+Keratinocytes	Other	Other
+Plasma_cells_CD138.	Other	Other
+Platelets	Other	Other
+Reticulocytes	Other	Other
+Subcutaneous_Adipose	Other	Other
+T_cells_CD3.	Other	Other
+T_cells_Gamma_Delta	Other	Other
+T_cells_Regulatory	Other	Other
+Plasma.cells	Other	Other
+T.cells.follicular.helper	Other	Other
+T.cells.regulatory..Tregs.	Other	Other
+T.cells.gamma.delta	Other	Other
+Dendritic.cells.resting	Other	Other
+Dendritic.cells.activated	Other	Other
+otherCells	Other	Other
+T cells	Other	Other
+Cytotoxic lymphocytes	Other	Other
+Myeloid dendritic cells	Other	Other
+Adipocytes	Other	Other
+Astrocytes	Other	Other
+Basophils	Other	Other
+CLP	Other	Other
+CMP	Other	Other
+Chondrocytes	Other	Other
+DC	Other	Other
+Epithelial cells	Other	Other
+Erythrocytes	Other	Other
+GMP	Other	Other
+HSC	Other	Other
+Hepatocytes	Other	Other
+MEP	Other	Other
+MPP	Other	Other
+MSC	Other	Other
+Megakaryocytes	Other	Other
+Melanocytes	Other	Other
+Mesangial cells	Other	Other
+Myocytes	Other	Other
+Neurons	Other	Other
+Pericytes	Other	Other
+Preadipocytes	Other	Other
+Sebocytes	Other	Other
+Skeletal muscle	Other	Other
+Smooth muscle	Other	Other
+Tgd cells	Other	Other
+Th1 cells	Other	Other
+Th2 cells	Other	Other
+Tregs	Other	Other
+aDC	Other	Other
+cDC	Other	Other
+iDC	Other	Other
+pDC	Other	Other
+pro B-cells	Other	Lymphocyte
+ImmuneScore	Other	Other
+StromaScore	Other	Other
+MicroenvironmentScore	Other	Other

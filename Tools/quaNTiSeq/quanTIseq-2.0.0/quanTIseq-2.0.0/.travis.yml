@@ -1,0 +1,17 @@
+language: c
+
+services:
+  - docker
+
+before_install:
+  - docker build -t icbi/quantiseq2:latest .
+
+script:
+  - FORCE_DOCKER=1 ./quanTIseq_pipeline.sh --outputdir=/tmp  --inputfile=test/rnaSeqInfoFile.txt
+
+
+deploy:
+  provider: script
+  script: bash .travis/docker_push.sh
+  on:
+    branch: master

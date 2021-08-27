@@ -1,0 +1,37 @@
+Package: DBI
+Version: 0.8
+Date: 2018-02-24
+Title: R Database Interface
+Description: A database interface definition for communication
+    between R and relational database management systems.  All
+    classes in this package are virtual and need to be extended by
+    the various R/DBMS implementations.
+Authors@R: c(
+    person("R Special Interest Group on Databases (R-SIG-DB)", role = "aut"),
+    person("Hadley", "Wickham", role = "aut"),
+    person("Kirill", "Müller", email = "krlmlr+r@mailbox.org", role = c("aut", "cre"))
+    )
+Depends: R (>= 3.0.0), methods
+Suggests: blob, covr, hms, knitr, magrittr, rprojroot, rmarkdown,
+        RSQLite (>= 1.1-2), testthat, xml2
+Encoding: UTF-8
+License: LGPL (>= 2)
+URL: http://r-dbi.github.io/DBI
+URLNote: https://github.com/r-dbi/DBI
+BugReports: https://github.com/r-dbi/DBI/issues
+Collate: 'DBObject.R' 'DBDriver.R' 'table.R' 'DBConnection.R' 'ANSI.R'
+        'DBI-package.R' 'DBResult.R' 'data-types.R' 'data.R'
+        'deprecated.R' 'hidden.R' 'interpolate.R' 'list-pairs.R'
+        'quote.R' 'rd.R' 'rownames.R' 'table-create.R' 'table-insert.R'
+        'transactions.R'
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1.9000
+NeedsCompilation: no
+Packaged: 2018-02-27 06:10:56 UTC; muelleki
+Author: R Special Interest Group on Databases (R-SIG-DB) [aut],
+  Hadley Wickham [aut],
+  Kirill Müller [aut, cre]
+Maintainer: Kirill Müller <krlmlr+r@mailbox.org>
+Repository: CRAN
+Date/Publication: 2018-03-02 16:44:44 UTC
+Built: R 3.2.3; ; 2018-03-07 21:43:09 UTC; unix

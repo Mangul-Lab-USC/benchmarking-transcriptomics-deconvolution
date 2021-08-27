@@ -1,0 +1,146 @@
+\documentclass[a4paper]{article}
+\title{DeconRNASeq: A Statistical Framework for Deconvolution of Heterogeneous Tissue Samples Based on mRNA-Seq data}
+\author{Ting Gong, Joseph D. Szustakowski}
+\date{\today}
+
+% The is for R CMD check, which finds it in spite of the "%", and also for
+% automatic creation of links in the HTML documentation for the package:
+
+% \VignetteIndexEntry{DeconRNASeq Demo}
+
+\begin{document}
+
+%%%%%%%% Setup
+
+% Do not reform code
+\SweaveOpts{keep.source=TRUE}
+
+% Size for figures
+\setkeys{Gin}{width=\textwidth}
+
+% R code and output non-italic
+% inspired from Ross Ihaka http://www.stat.auckland.ac.nz/~ihaka/downloads/Sweave-customisation.pdf
+\DefineVerbatimEnvironment{Sinput}{Verbatim}{xleftmargin=0em}
+%\DefineVerbatimEnvironment{Soutput}{Verbatim}{xleftmargin=0em}
+\DefineVerbatimEnvironment{Scode}{Verbatim}{xleftmargin=0em}
+
+% Reduce characters per line in R output
+
+<<set_width, echo=FALSE>>=
+options( width = 60 )
+@ 
+
+% Make title
+\maketitle
+
+%%%%%%%% Main text
+
+\section{Introduction}
+Heterogeneous tissues are frequently collected (e.g. blood, tumor etc.) from humans or model animals. Therefore mRNA-Seq samples are often heterogeneous with regard to those 
+cell types, which render it difficult to distinguish whether gene expression variation reflects a shift in cell populations, a change of cell-type-specific expression, 
+or both (\cite{Kuhn2011}).  
+
+In this vignette, we present an efficient pipeline and methodology: DeconRNASeq, an R package for deconvolution of heterogeneous tissues based on mRNA-Seq data. 
+It adopts a globally optimized non-negative decomposition algorithm through quadratic programming for estimating the mixing proportions of distinctive tissue types 
+in next generation sequencing data. We demonstrate the feasibility and validity of DeconRNASeq across a range of mixing levels and sources 
+using mRNA-Seq data mixed \emph{in-silico} at known concentrations. 
+
+We presented the workflow of DeconRNASeq package in this vignette. This tool allows processing of sequencing data for assessing the performance of linear models and estimating
+accurately mixing fractions for multiple species of tissues or cells, and is even able to provide accurate estimates for relatively rare cell types (<= 0.02). We applied our approach 
+to a realistic simulations involving complex mixtures of multiple tissues derived from an appropriate experimental design. 
+
+\section{File Structure Requirements}
+A single study analysis requires at least two inputs:
+
+\begin{description}
+\item[datasets] An $m$-by-$n$ matrix of expression values, where $m$ is the number of genes (or probes) under consideration and $n$ is the total number of mRNA-Seq mixing samples 
+consisting of multiple samples. These expression values should be normalized in some manner. But we leave the users to select their preferred normalization methods. It should be 
+noted, expression is generally not on the $log_2$ scale, which may destroy the linear model in the context of mRNA-Seq expression deconvolution.
+
+\item[signatures] An $m$-by-$n$ matrix of expression values, where $m$ is the number of genes (or probes) which are cell- or tissue-type specific and  $n$ is the total number of cell or tussi types.
+These espression values should be normalized in the same manner of datasets. We do not suggest to take log transformation also.
+\end{description}
+
+\noindent{Our demo uses a simulated example data set, which can be accessed using the code given below.}
+
+<<packageLoad>>=
+library(DeconRNASeq)
+## multi_tissue: expression profiles for 10 mixing samples from
+## multiple tissues 
+data(multi_tissue)  
+  
+datasets <- x.data[,2:11]
+signatures <- x.signature.filtered.optimal[,2:6]
+proportions <- fraction
+@
+
+For the mixtures, there are 28745 genes. And we have 10 samples. \emph{In silico} mixed data were simulated using (\cite{Pan2008}) data, with disparate proportions drawn from random numbers.
+The mixing proportions used by each type of tissue are shown in the following. It should also be noted that we investigated the influence of extremely low numbers of contaminating cell types (<2 percent).
+<<mixing matrix>>=
+proportions
+@
+
+We adopted mRNA-Seq data from the Illumina BodyMap 2.0 (GSE 30611) as a training data set to define tissue-specific signatures for different human tissues 
+(adrenal gland, adipose, brain, breast, colon, heart, kidney, liver, lung, lymph node, ovary, prostate, skeletal muscle, testes, thyroid, and white blood cells). 
+We selected the overlapped tissues with mixed data and generated tissue-specific transcriptional profiles
+
+We assessed potential expression signatures via the methods described in (\cite{Gong2011}) as the basis matrix for deconvolution. In this case study, we conjecture that genes with 
+extremely small or large read counts somehow violate our assumptions of linearity or are otherwise unreliable. Therefore, we putatively removed the genes with RPKM less than 200 
+within any of the five tissues from our gene signatures. Consequently, for the tissue-type selected gene signatures, we selected 1570 genes that consist of the signatures for the five tissues and 
+deconvoluted the data. 
+
+<<Expression signature>>=
+signatures <- x.signature.filtered.optimal[,2:6]
+attributes(signatures)[c(1,2)]  
+@
+
+\section{Deconvolution Analysis}
+After we initiated the parameters/arguments in the last section, we can perform the deconvolution analysis as following.
+<<Deconolution, fig=TRUE>>=
+DeconRNASeq(datasets, signatures, proportions, checksig=FALSE, 
+			known.prop = TRUE, use.scale = TRUE, fig = TRUE)
+@
+
+The system we describe here assumes that all relevant cell types are accounted for in the cell-specific expression matrix. In reality, this might not always be the case, as complex tissue samples 
+might include unexpected contaminants, or rare cell populations that have not been previously characterized via expression profiling. Several studies have reported that identifying the correct number 
+of transcriptional source signals in complex samples is very challenging. One common approach is to use principle component analysis (PCA) to estimate the number of sources based on their cumulative 
+variance contributions. Our package includes procedures to assist the user in identifying the appropriate number of sources guided by PCA. When the number of pure cell or tissue types defined in the 
+expression signature matrix is inconsistent with the PCA estimation, our package will give the notification. However, we leave the users to decide the constituent signal components in the mixtures.
+
+The output \texttt{out.all} includes the estimated mixing fractions of multiple sources in each mixing sample, the \texttt{out.rmse} outputs the mean RMSE(root mean square error) for all estimated tissue proportions if the true proportions are known. We also generated the scatter plots of estimated tissue proportions (y axis) \emph{vs.} actual
+tissue proportions (x axis) for deconvolution of heterogeneous tissues if \texttt{fig} is TRUE. 
+
+\section{Condition Number of the Expression Signatures}
+A basis matrix that contains genes that together form a complete but parsimonious set of robust markers for the tissue types of interest in mRNA-Seq data is crucial to the success of the deconvolution. 
+Therefore, if we know the mixing proportions, a complete set of matrices comprised of different quantities of the most differentially-expressed genes can be tested by comparing the results of each matrix 
+to the known mixture fractions. A matrix' condition number estimates the sensitivity of a system of linear equations to errors in the data. Hence, the condition number is low when the matrix is stable. 
+Thus, we also provide the plot of the condition number \emph{vs.} the number of genes from the gene signature in the deconvolution experiments. 
+
+An example is provided by re-runing the same experiment with the parameter \texttt{checksig} to be true.
+<<Condition_num, fig=TRUE, results=hide>>=
+DeconRNASeq(datasets, signatures, proportions, checksig=TRUE, 
+			known.prop = TRUE, use.scale = TRUE, fig = TRUE)
+@ 
+
+\begin{thebibliography}{10}
+
+\bibitem{Kuhn2011}
+Kuhn, A., et al.
+\newblock Population-specific expression analysis (PSEA) reveals molecular changes in diseased brain
+\newblock \textit{Nat Meth} 8, 945-947
+
+\bibitem{Pan2008}
+Pan, Q., et al. 
+\newblock Deep surveying of alternative splicing complexity in the human transcriptome by high-throughput sequencing
+\newblock \textit{Nat Genet} 40, 1413-1415
+
+\bibitem{Gong2011}
+Gong, T. 
+\newblock Optimal Deconvolution of Transcriptional Profiling Data Using Quadratic Programming with Application to Complex Clinical Blood Samples
+\newblock \textit{PLoS One} 6, e27156
+
+\end{thebibliography}
+
+
+\end{document}
+

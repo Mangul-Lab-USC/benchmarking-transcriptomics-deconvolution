@@ -1,0 +1,12 @@
+../2ReformatPredictions/ReformattedPredictions/AbsCIBERSORT_Fram_HPCA-Blood.tsv
+../2ReformatPredictions/ReformattedPredictions/CIBERSORT_Fram_HPCA-Blood.tsv
+../2ReformatPredictions/ReformattedPredictions/DCQ_Fram_BlueCodeV1.tsv
+../2ReformatPredictions/ReformattedPredictions/DeconRNASeq_Fram_SkinSignaturesV1.tsv
+../2ReformatPredictions/ReformattedPredictions/EPIC_Fram_SkinSignaturesV1.tsv
+../2ReformatPredictions/ReformattedPredictions/GEDIT_Fram_LM22-Full.tsv
+../2ReformatPredictions/ReformattedPredictions/MCP-counter_Fram_default.tsv
+../2ReformatPredictions/ReformattedPredictions/SaVanT_Fram_EPIC-BCIC.tsv
+../2ReformatPredictions/ReformattedPredictions/dtangle_Fram_LM22-Full.tsv
+../2ReformatPredictions/ReformattedPredictions/nnls_Fram_SkinSignaturesV1.tsv
+../2ReformatPredictions/ReformattedPredictions/quanTIseq_Fram_default.tsv
+../2ReformatPredictions/ReformattedPredictions/xCell_Fram_default.tsv

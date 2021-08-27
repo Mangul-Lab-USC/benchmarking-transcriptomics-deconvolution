@@ -1,0 +1,8 @@
+as.date                 Coerce Data to Dates
+date.ddmmmyy            Format a Julian date
+date.mdy                Convert from Julian Dates to Month, Day, and
+                        Year
+date.mmddyy             Format a Julian date
+date.mmddyyyy           Format a Julian date
+is.date                 Date Objects
+mdy.date                Convert to Julian Dates

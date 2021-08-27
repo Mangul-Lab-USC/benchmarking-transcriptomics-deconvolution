@@ -1,0 +1,50 @@
+boa.acf                 Autocorrelation Function
+boa.chain               Session Lists of MCMC Sequences
+boa.chain.add           Add MCMC Sequence
+boa.chain.collapse      Concatenate MCMC Sequences
+boa.chain.del           Delete MCMC Sequences
+boa.chain.eval          Formulate New Parameter
+boa.chain.gandr         Gelman and Rubin Convergence Diagnostics
+boa.chain.import        Import MCMC Sequence
+boa.chain.info          Information about MCMC Sequences
+boa.chain.reset         Reset MCMC Sequences
+boa.chain.subset        Subset MCMC Sequences
+boa.chain.support       Set Support for Parameters
+boa.geweke              Geweke Convergence Diagnostics
+boa.handw               Heidelberger and Welch Convergence Diagnostics
+boa.hpd                 Highest Probability Density Interval
+boa.importASCII         Import ASCII Data
+boa.importBUGS          Import BUGS Data
+boa.importMatrix        Import ASCII Data
+boa.init                Start Session
+boa.load                Load Session
+boa.menu                Interactive BOA Menu
+boa.par                 Global Parameters
+boa.plot                Plot Parameters in MCMC Sequences
+boa.plot.acf            Plot Autocorrelation Function
+boa.plot.bandg          Plot Brooks and Gelman Multivariate Shrink
+                        Factors
+boa.plot.density        Plot Density Functions
+boa.plot.gandr          Plot Gelman and Rubin Shrink Factors
+boa.plot.geweke         Plot Geweke Convergence Diagnostics
+boa.plot.history        Plot Parameter Estimation Histories
+boa.plot.par            Set Plotting Parameters
+boa.plot.title          Add Plot Title
+boa.plot.trace          Plot Trace Histories
+boa.print.acf           Print Autocorrelation Functions
+boa.print.cor           Print Correlation Matrices
+boa.print.gandr         Print Gelman and Rubin Convergence Diagnostics
+boa.print.geweke        Print Geweke Convergence Diagnostics
+boa.print.handw         Print Heidelberger and Welch Convergence
+                        Diagnostics
+boa.print.hpd           Print Highest Probability Density Intervals
+boa.print.info          Print Information about MCMC Sequences
+boa.print.par           Print Global Parameters' Descriptions and
+                        Current Values
+boa.print.randl         Print Raftery and Lewis Convergence Diagnostics
+boa.print.stats         Print Summary Statistics
+boa.quit                Quit Session
+boa.randl               Raftery and Lewis Convergence Diagnostics
+boa.save                Save Session
+boa.stats               Summary Statistics
+line                    BUGS Line Example

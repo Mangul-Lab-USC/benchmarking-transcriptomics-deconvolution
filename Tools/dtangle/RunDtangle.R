@@ -9,8 +9,8 @@ getCoreFileName = function(LongFName){
 mixMat = read.table(args[1], header = TRUE, row.names =1, sep = "\t")
 refMat = read.table(args[2], header = TRUE, row.names =1, sep = "\t")
 SharedNames = intersect(row.names(mixMat),row.names(refMat))
-readyMix = mixMat[SharedNames,]
-readyRef = refMat[SharedNames,]
+readyMix = log2(1+mixMat[SharedNames,])
+readyRef = log2(1+refMat[SharedNames,])
 outMat = dtangle(t(readyMix), references = t(readyRef))
 mixString = getCoreFileName(args[1])
 refString = getCoreFileName(args[2])

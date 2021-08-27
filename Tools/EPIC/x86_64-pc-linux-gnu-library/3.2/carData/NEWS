@@ -1,0 +1,9 @@
+Initial Version 3.0-0
+
+o Changed level names in Guyer data frame.
+
+o Data sets moved from the car package and effects package.
+
+o Updated the Vocab data set.
+
+o Replaced UN data set with what used to be UN11a; removed the latter.

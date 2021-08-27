@@ -1,0 +1,56 @@
+DESeq                   Differential expression analysis based on the
+                        Negative Binomial (a.k.a. Gamma-Poisson)
+                        distribution
+DESeq2-package          DESeq2 package for differential analysis of
+                        count data
+DESeqDataSet-class      DESeqDataSet object and constructors
+DESeqResults-class      DESeqResults object and constructor
+DESeqTransform-class    DESeqTransform object and constructor
+coef                    Extract a matrix of model coefficients/standard
+                        errors
+collapseReplicates      Collapse technical replicates in a
+                        RangedSummarizedExperiment or DESeqDataSet
+counts                  Accessors for the 'counts' slot of a
+                        DESeqDataSet object.
+design                  Accessors for the 'design' slot of a
+                        DESeqDataSet object.
+dispersionFunction      Accessors for the 'dispersionFunction' slot of
+                        a DESeqDataSet object.
+dispersions             Accessor functions for the dispersion estimates
+                        in a DESeqDataSet object.
+estimateBetaPriorVar    Steps for estimating the beta prior variance
+estimateDispersions     Estimate the dispersions for a DESeqDataSet
+estimateDispersionsGeneEst
+                        Low-level functions to fit dispersion estimates
+estimateSizeFactors     Estimate the size factors for a DESeqDataSet
+estimateSizeFactorsForMatrix
+                        Low-level function to estimate size factors
+                        with robust regression.
+fpkm                    FPKM: fragments per kilobase per million mapped
+                        fragments
+fpm                     FPM: fragments per million mapped fragments
+makeExampleDESeqDataSet
+                        Make a simulated DESeqDataSet
+nbinomLRT               Likelihood ratio test (chi-squared test) for
+                        GLMs
+nbinomWaldTest          Wald test for the GLM coefficients
+normTransform           Normalized counts transformation
+normalizationFactors    Accessor functions for the normalization
+                        factors in a DESeqDataSet object.
+normalizeGeneLength     Normalize for gene length
+plotCounts              Plot of normalized counts for a single gene on
+                        log scale
+plotDispEsts            Plot dispersion estimates
+plotMA                  MA-plot from base means and log fold changes
+plotPCA                 Sample PCA plot for transformed data
+plotSparsity            Sparsity plot
+replaceOutliers         Replace outliers with trimmed mean
+results                 Extract results from a DESeq analysis
+rlog                    Apply a 'regularized log' transformation
+show                    Show method for DESeqResults objects
+sizeFactors             Accessor functions for the 'sizeFactors'
+                        information in a DESeqDataSet object.
+summary                 Summarize DESeq results
+varianceStabilizingTransformation
+                        Apply a variance stabilizing transformation
+                        (VST) to the count data

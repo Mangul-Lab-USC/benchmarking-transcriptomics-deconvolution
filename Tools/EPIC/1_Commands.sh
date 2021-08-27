@@ -1,0 +1,4 @@
+Rscript WrapperEPIC.R /u/home/b/bnadel/Benchmarking/Inputs/Mixes/Fram.tsv /u/home/b/bnadel/Benchmarking/Inputs/RefMats/BluePrint-Blood.tsv ~/Benchmarking/Inputs/SignatureLists/EPICFormat/BluePrint-Blood.tsv predictions/EPIC_Fram_BluePrint-Blood.tsv
+Rscript WrapperEPIC.R /u/home/b/bnadel/Benchmarking/Inputs/Mixes/Fram.tsv /u/home/b/bnadel/Benchmarking/Inputs/RefMats/EPIC-BCIC.tsv ~/Benchmarking/Inputs/SignatureLists/EPICFormat/EPIC-BCIC.tsv predictions/EPIC_Fram_EPIC-BCIC.tsv
+Rscript WrapperEPIC.R /u/home/b/bnadel/Benchmarking/Inputs/Mixes/Fram.tsv /u/home/b/bnadel/Benchmarking/Inputs/RefMats/EPIC-TIC.tsv ~/Benchmarking/Inputs/SignatureLists/EPICFormat/EPIC-TIC.tsv predictions/EPIC_Fram_EPIC-TIC.tsv
+Rscript WrapperEPIC.R /u/home/b/bnadel/Benchmarking/Inputs/Mixes/Fram.tsv /u/home/b/bnadel/Benchmarking/Inputs/RefMats/SkinSignaturesV1.tsv ~/Benchmarking/Inputs/SignatureLists/EPICFormat/SkinSignaturesV1.tsv predictions/EPIC_Fram_SkinSignaturesV1.tsv

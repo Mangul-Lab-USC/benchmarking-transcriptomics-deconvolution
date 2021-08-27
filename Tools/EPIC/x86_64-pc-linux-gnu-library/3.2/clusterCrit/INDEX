@@ -1,0 +1,6 @@
+bestCriterion           Best clustering index
+clusterCrit             ~ Overview: Clustering Indices ~
+concordance             Compute Concordance Matrix
+extCriteria             Compute external clustering criteria
+getCriteriaNames        Get clustering criteria names
+intCriteria             Compute internal clustering criteria

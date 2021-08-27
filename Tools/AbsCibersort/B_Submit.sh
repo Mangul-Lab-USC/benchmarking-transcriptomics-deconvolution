@@ -1,0 +1,15 @@
+#qsub -cwd -V -N g16CibA11 -pe shared 4 -l h_data=16G,h_rt=48:00:00,highp -m ea A11.sh
+#qsub -cwd -V -N g16CibA12 -pe shared 4 -l h_data=16G,h_rt=48:00:00,highp -m ea A12.sh
+#qsub -cwd -V -N g16CibA13 -pe shared 4 -l h_data=16G,h_rt=48:00:00,highp -m ea A13.sh
+#qsub -cwd -V -N g16CibA15 -pe shared 4 -l h_data=16G,h_rt=48:00:00,highp -m ea A15.sh
+#qsub -cwd -V -N CibA1 -pe shared 4 -l h_data=32G,h_rt=48:00:00,highp -m ea A1.sh
+qsub -cwd -V -N CibA2 -pe shared 4 -l h_data=32G,h_rt=72:00:00,highp -m ea A2.sh
+#qsub -cwd -V -N CibA3 -pe shared 4 -l h_data=32G,h_rt=48:00:00,highp -m ea A3.sh
+#qsub -cwd -V -N CibA4 -pe shared 4 -l h_data=32G,h_rt=48:00:00,highp -m ea A4.sh
+#qsub -cwd -V -N CibA5 -pe shared 4 -l h_data=32G,h_rt=48:00:00,highp -m ea A5.sh
+#qsub -cwd -V -N CibA6 -pe shared 4 -l h_data=32G,h_rt=48:00:00,highp -m ea A6.sh
+#qsub -cwd -V -N CibA7 -pe shared 4 -l h_data=32G,h_rt=48:00:00,highp -m ea A7.sh
+#qsub -cwd -V -N CibA8 -pe shared 4 -l h_data=32G,h_rt=48:00:00,highp -m ea A8.sh
+#qsub -cwd -V -N CibA9 -pe shared 4 -l h_data=32G,h_rt=48:00:00,highp -m ea A9.sh
+#qsub -cwd -V -N g16CibA10 -pe shared 4 -l h_data=16G,h_rt=48:00:00,highp -m ea A10.sh
+qsub -cwd -V -N g16CibA14 -pe shared 4 -l h_data=32G,h_rt=72:00:00,highp -m ea A14.sh

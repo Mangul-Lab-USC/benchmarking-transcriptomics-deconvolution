@@ -1,0 +1,17 @@
+ComICS-package	ComICS
+.combine_iQTL_association_scores	ComICS-internal
+.create_iQTL_association_scores	ComICS-internal
+.fishersMethod	ComICS-internal
+.iterative_filteration	ComICS-internal
+.normalizeData	ComICS-internal
+.qtlAnalysis	ComICS-internal
+ComICS	ComICS
+ComICS-internal	ComICS-internal
+dcq	dcq
+DCQ_mar	commons
+eQTL_res	vocalEx
+gBXD	vocalEx
+immgen_dat	commons
+lung_dat	vocalEx
+lung_time_series_dat	dcqEx
+vocal	vocal

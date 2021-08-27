@@ -1,0 +1,24 @@
+#/bin/bash
+#$ -cwd
+#$ -o  joblog.$JOB_ID
+#$ -j y
+#  Resources requested:
+#$ -l h_data=8g,h_rt=1:00:00,highp
+#  Email address to notify
+#$ -M $USER@mail
+#$ -m bea
+
+  echo ""
+  echo "test started on:   "` hostname -s `
+  echo "test started at:   "` date `
+  echo ""
+#
+  . /u/local/Modules/default/init/modules.sh
+  module load R/3.6.1
+
+
+#
+# Run the user program
+#
+
+R CMD BATCH quanTIseq_hoffman2.R quanTIseq_results_CellMixtures.txt

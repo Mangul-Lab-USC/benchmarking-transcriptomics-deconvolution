@@ -1,0 +1,7 @@
+ComICS                  Computational methods for Immune Cell-type
+                        Subsets
+dcq                     DCQ - Digital Cell Quantifier
+immgen_dat              Shared Immunological datasets
+lung_dat                Example datasets for runnning vocal
+lung_time_series_dat    Example datasets for runnning dcq
+vocal                   Variation in Cell Abundance Loci

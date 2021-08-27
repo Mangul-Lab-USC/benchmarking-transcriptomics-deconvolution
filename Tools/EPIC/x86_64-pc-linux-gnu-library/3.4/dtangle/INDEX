@@ -1,0 +1,12 @@
+baseline_exprs          Estimate the offset terms.
+combine_Y_refs          Row-binds 'Y' with 'references' and generates
+                        'pure_samples'.
+dtangle                 Deconvolve cell type mixing proportions from
+                        gene expression data.
+est_phats               Estimate the gene type proportions.
+find_markers            Find marker genes for each cell type.
+get_gamma               Determine gamma value by data type.
+process_markers         Determines number of markers 'n_markers',
+                        marker list 'mrkrs', and 'gamma'.
+shen_orr_ex             Example Subset of Shen-Orr deconvolution data
+                        set.

@@ -1,0 +1,20 @@
+Package: awsMethods
+Version: 1.1-0
+Date: 2018-02-01
+Title: Class and Methods Definitions for Packages 'aws', 'adimpro',
+        'fmri', 'dwi'
+Authors@R: c(person("Joerg","Polzehl",role=c("aut","cre"),email="joerg.polzehl@wias-berlin.de"),person("Felix","Anker",role=c("ctb")))
+Depends: R (>= 3.2.0), methods
+Description: Defines the method extract and provides 'openMP' support as needed in several packages.
+License: GPL (>= 2)
+Copyright: This package is Copyright (C) 2012-18 Weierstrass Institute
+        for Applied Analysis and Stochastics.
+URL: http://www.wias-berlin.de/software/imaging/
+NeedsCompilation: yes
+Packaged: 2018-02-01 10:50:12 UTC; polzehl
+Author: Joerg Polzehl [aut, cre],
+  Felix Anker [ctb]
+Maintainer: Joerg Polzehl <joerg.polzehl@wias-berlin.de>
+Repository: CRAN
+Date/Publication: 2018-02-01 16:14:57 UTC
+Built: R 3.2.3; x86_64-pc-linux-gnu; 2018-03-07 21:40:31 UTC; unix

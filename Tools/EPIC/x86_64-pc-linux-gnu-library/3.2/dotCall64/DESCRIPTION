@@ -1,0 +1,33 @@
+Package: dotCall64
+Type: Package
+Title: Enhanced Foreign Function Interface Supporting Long Vectors
+Version: 0.9-5.2
+Date: 2018-01-11
+Authors@R: c(person("Kaspar", "Moesinger", role = c("aut"),
+    email = "kaspar.moesinger@gmail.com"),
+    person("Florian", "Gerber", role = c("cre", "ctb"),
+    email = "florian.gerber@math.uzh.ch"),
+    person("Reinhard", "Furrer", role = "ctb",
+    email = "reinhard.furrer@math.uzh.ch"))
+Description: Provides .C64(), which is an enhanced version of .C()
+    and .Fortran() from the foreign function interface. .C64() supports long
+    vectors, arguments of type 64-bit integer, and provides a mechanism to
+    avoid unnecessary copies of read-only and write-only arguments. This
+    makes it a convenient and fast interface to C/C++ and Fortran code.
+License: GPL (>= 2)
+URL: https://git.math.uzh.ch/reinhard.furrer/dotCall64
+BugReports: https://git.math.uzh.ch/reinhard.furrer/dotCall64/issues
+Depends: R (>= 3.1)
+Suggests: microbenchmark, OpenMPController, RColorBrewer, roxygen2,
+        spam, testthat,
+Collate: 'vector_dc.R' 'dotCall64.R' 'zzz.R'
+RoxygenNote: 6.0.1
+NeedsCompilation: yes
+Packaged: 2018-01-11 16:23:57 UTC; floger
+Author: Kaspar Moesinger [aut],
+  Florian Gerber [cre, ctb],
+  Reinhard Furrer [ctb]
+Maintainer: Florian Gerber <florian.gerber@math.uzh.ch>
+Repository: CRAN
+Date/Publication: 2018-01-11 21:36:35 UTC
+Built: R 3.2.3; x86_64-pc-linux-gnu; 2018-03-07 21:40:41 UTC; unix

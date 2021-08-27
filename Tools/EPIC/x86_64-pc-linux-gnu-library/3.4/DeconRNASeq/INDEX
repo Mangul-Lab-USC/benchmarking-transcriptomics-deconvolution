@@ -1,0 +1,41 @@
+DeconRNASeq             Function for Deconvolution of Complex Samples
+                        from RNA-Seq.
+DeconRNASeq_package     package DeconRNASeq contains function
+                        "DeconRNASeq", implementing the decomposition
+                        of RNA-Seq expression profilings of
+                        heterogeneous tissues into cell/tissue type
+                        specific expression and cell type concentration
+                        based on cell-type-specific reference
+                        measurements.
+all.datasets            data objects for rat liver_brain samples
+array.proportions       proportions for rat liver and brain mixing
+                        samples
+array.signatures        data objects for rat liver and brain pure
+                        samples
+condplot                Draw the plot of the condition numbers vs. the
+                        number of genes in the signature matrix
+datasets                data objects for liver and kidney mixing
+                        samples
+decon.bootstrap         Estimate the confidence interval for the
+                        proportions predicted by deconvolution
+fraction                mixing fractions for multi-tissues mixing
+                        samples
+liver_kidney            data objects for liver and kidney mixing
+                        samples
+multi_tissue            data objects for multi-tissues mixing samples
+multiplot               Draw the plots of proportions of cells
+                        determined from deconvolution vs. proportions
+                        of the cells actually mixed (when available)
+                        with RMSE.
+proportions             proportions for liver and kidney mixing samples
+rmse                    Calculate the differences between proportions
+                        predicted by deconvolution and the values
+                        actually measured
+signatures              data objects for liver and kidney pure samples
+x.data                  data objects for multi-tissues mixing samples
+x.signature             data objects for multi-tissues pure samples
+x.signature.filtered    filtered signatures for multi-tissues pure
+                        samples
+x.signature.filtered.optimal
+                        selected signatures from multi-tissues pure
+                        samples

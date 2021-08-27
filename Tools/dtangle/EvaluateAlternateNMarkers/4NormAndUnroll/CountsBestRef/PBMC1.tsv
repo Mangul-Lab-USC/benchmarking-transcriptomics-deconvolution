@@ -1,0 +1,9 @@
+Cibersort	ImmunoStates-Full.tsv	EPIC-BCIC.tsv	10XImmune.tsv	HPCA-Blood.tsv	HPCA-Stromal.tsv	EPIC-TIC.tsv	BluePrint-Blood.tsv	SkinSignaturesV1.tsv	LM22-Full.tsv	BlueCodeV1.tsv
+Cibersort	2	0	43	22	0	28	0	0	0	5
+GEDIT	0	26	2	26	2	0	39	0	0	5
+Savant	24	2	7	6	1	51	0	9	0	0
+AbsCibersort	2	0	43	22	0	28	0	0	0	5
+dtangle	16	21	0	41	8	4	10	0	0	0
+EPIC	16	21	60	3	0	0	0	0	0	0
+Decon	13	10	31	0	9	33	0	0	0	4
+DCQ	1	22	0	70	1	4	1	0	0	1
